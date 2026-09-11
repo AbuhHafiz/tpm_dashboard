@@ -1,4 +1,4 @@
-﻿import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { X, UploadCloud, FileText, AlertCircle, CheckCircle2 } from 'lucide-react';
 
 function formatBytes(bytes) {
@@ -97,6 +97,11 @@ export default function PdfUploadModal({
         },
         body: formData
       });
+
+      const contentType = res.headers.get('content-type') || '';
+      if (!contentType.includes('application/json')) {
+        throw new Error('Website Vercel ini adalah tampilan publik (read-only). Untuk mengunggah file baru, lakukan upload di laptop Anda (localhost:3000) lalu klik file "push-to-github.bat" agar otomatis tampil di sini.');
+      }
 
       const data = await res.json();
       if (!res.ok) {

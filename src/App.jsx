@@ -194,6 +194,10 @@ export default function App() {
           'Authorization': `Bearer ${adminToken}`
         }
       });
+      const ct = res.headers.get('content-type') || '';
+      if (!ct.includes('application/json')) {
+        throw new Error('Website Vercel ini adalah tampilan publik. Untuk menghapus PDF, lakukan di laptop Anda (localhost:3000) lalu klik file "push-to-github.bat".');
+      }
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Gagal menghapus PDF');
 
@@ -235,6 +239,10 @@ export default function App() {
           subtitle
         })
       });
+      const ct = res.headers.get('content-type') || '';
+      if (!ct.includes('application/json')) {
+        throw new Error('Website Vercel ini adalah tampilan publik. Untuk mengubah judul, lakukan di laptop Anda (localhost:3000) lalu klik file "push-to-github.bat".');
+      }
       const data = await res.json();
       if (!res.ok) throw new Error(data.error || 'Gagal mengubah judul');
 
