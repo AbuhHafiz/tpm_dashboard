@@ -171,10 +171,6 @@ export default function AdminLoginModal({
             </div>
           </div>
 
-          {/* Default hint for easy testing */}
-          <div className="bg-slate-50 border border-slate-200 rounded-lg p-2 text-[11px] text-slate-500 text-center">
-            Default kredensial: <span className="font-bold text-slate-700">admin</span> / <span className="font-bold text-slate-700">tonasa-admin</span>
-          </div>
 
           {/* Buttons */}
           <div className="flex items-center gap-2 pt-2">
