@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import MonthPicker from './components/MonthPicker';
 import ColumnSection from './components/ColumnSection';
@@ -74,7 +74,11 @@ export default function App() {
     fetch('/api/network-info')
       .then(res => res.json())
       .then(data => setNetworkInfo(data))
-      .catch(err => console.warn('Could not fetch network info:', err));
+      .catch(() => {
+        if (typeof window !== 'undefined') {
+          setNetworkInfo({ fullUrl: window.location.origin });
+        }
+      });
   }, []);
 
   // Fetch board data when currentMonth changes
@@ -82,10 +86,33 @@ export default function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const res = await fetch(`/api/board?month=${month}`);
-      if (!res.ok) throw new Error('Gagal mengambil data papan kontrol');
-      const data = await res.json();
-      setSections(data.sections);
+      let boardSections = null;
+
+      // Try live API first
+      try {
+        const res = await fetch(`/api/board?month=${month}`);
+        if (res.ok) {
+          const data = await res.json();
+          boardSections = data.sections;
+        }
+      } catch (apiErr) {
+        // Fall back to static data
+      }
+
+      // Fallback to static JSON if API fails (e.g. on Vercel)
+      if (!boardSections) {
+        const staticRes = await fetch(`/data/board-data.json`);
+        if (staticRes.ok) {
+          const allData = await staticRes.json();
+          boardSections = allData[month] || null;
+        }
+      }
+
+      if (!boardSections) {
+        throw new Error('Data untuk bulan ini belum tersedia atau server tidak merespons');
+      }
+
+      setSections(boardSections);
     } catch (err) {
       setError(err.message || 'Terjadi kesalahan jaringan');
     } finally {
