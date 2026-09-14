@@ -300,10 +300,10 @@
           "id": "pm-1",
           "title": "Schedule Pemeliharaan",
           "subtitle": "Jadwal Pemeliharaan Berkala Mesin",
-          "pdfUrl": "/uploads/2026-09/section_slot_1788403006408.pdf",
-          "pdfOriginalName": "Schedule PM.pdf",
-          "pdfSize": 4219760,
-          "uploadedAt": "2026-09-03T01:03:26.408Z"
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
         },
         {
           "id": "pm-2",
@@ -411,10 +411,10 @@
           "id": "fi-1",
           "title": "Slogan SGA QC / Komitmen",
           "subtitle": "TPM Tuntas Bersama Jaga Kualitas",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/focus-improvement_fi-1_1789348529677.pdf",
+          "pdfOriginalName": "slogan.pdf",
+          "pdfSize": 193784,
+          "uploadedAt": "2026-09-14T01:15:29.702Z"
         },
         {
           "id": "fi-2",
