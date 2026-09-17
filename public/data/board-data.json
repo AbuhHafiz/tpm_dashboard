@@ -300,46 +300,46 @@
           "id": "pm-1",
           "title": "Schedule Pemeliharaan",
           "subtitle": "Jadwal Pemeliharaan Berkala Mesin",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/plan-maintenance_pm-1_1789613173603.pdf",
+          "pdfOriginalName": "PM.pdf",
+          "pdfSize": 295242,
+          "uploadedAt": "2026-09-17T02:46:13.619Z"
         },
         {
           "id": "pm-2",
           "title": "Timeline Kegiatan",
           "subtitle": "Rencana Kerja & Milestone Waktu",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/plan-maintenance_pm-2_1789613182227.pdf",
+          "pdfOriginalName": "timeline.pdf",
+          "pdfSize": 348839,
+          "uploadedAt": "2026-09-17T02:46:22.241Z"
         },
         {
           "id": "pm-3",
           "title": "Temuan Abnormalitas",
           "subtitle": "Log & Tindak Lanjut Temuan Lapangan",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/plan-maintenance_pm-3_1789613209612.pdf",
+          "pdfOriginalName": "abnormalitas sep 2026.pdf",
+          "pdfSize": 225328,
+          "uploadedAt": "2026-09-17T02:46:49.620Z"
         },
         {
           "id": "pm-4",
           "title": "Standar 5R",
           "subtitle": "Ringkas, Rapi, Resik, Rawat, Rajin",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/plan-maintenance_pm-4_1789613231781.pdf",
+          "pdfOriginalName": "std 5R.pdf",
+          "pdfSize": 384661,
+          "uploadedAt": "2026-09-17T02:47:11.795Z"
         },
         {
           "id": "pm-5",
           "title": "CILT Fokus Area",
           "subtitle": "Cleaning, Inspection, Lubrication, Tightening",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/plan-maintenance_pm-5_1789613239331.pdf",
+          "pdfOriginalName": "CILT.pdf",
+          "pdfSize": 347690,
+          "uploadedAt": "2026-09-17T02:47:19.345Z"
         }
       ]
     },
@@ -378,19 +378,19 @@
           "id": "to-4",
           "title": "Masukan Leader Gugus",
           "subtitle": "Evaluasi & Saran Leader Gugus",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/tpm-officer_to-4_1789613260261.pdf",
+          "pdfOriginalName": "leader gugus.pdf",
+          "pdfSize": 230975,
+          "uploadedAt": "2026-09-17T02:47:40.274Z"
         },
         {
           "id": "to-5",
           "title": "Review Leader",
           "subtitle": "Monitoring & Penilaian Leader",
-          "pdfUrl": null,
-          "pdfOriginalName": null,
-          "pdfSize": null,
-          "uploadedAt": null
+          "pdfUrl": "/uploads/2026-09/tpm-officer_to-5_1789613269615.pdf",
+          "pdfOriginalName": "review atasan.pdf",
+          "pdfSize": 250486,
+          "uploadedAt": "2026-09-17T02:47:49.639Z"
         },
         {
           "id": "to-6",
@@ -446,10 +446,10 @@
           "id": "pm-1",
           "title": "Schedule Pemeliharaan",
           "subtitle": "Jadwal Pemeliharaan Berkala Mesin",
-          "pdfUrl": "/uploads/2026-10/section_slot_1788403006408.pdf",
-          "pdfOriginalName": "Schedule PM.pdf",
-          "pdfSize": 4219760,
-          "uploadedAt": "2026-09-03T01:03:26.408Z"
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
         },
         {
           "id": "pm-2",
@@ -876,6 +876,152 @@
     }
   },
   "2026-05": {
+    "plan-maintenance": {
+      "title": "PLAN MAINTENANCE",
+      "subtitle": "Perencanaan & Pemeliharaan Berkala",
+      "slots": [
+        {
+          "id": "pm-1",
+          "title": "Schedule Pemeliharaan",
+          "subtitle": "Jadwal Pemeliharaan Berkala Mesin",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "pm-2",
+          "title": "Timeline Kegiatan",
+          "subtitle": "Rencana Kerja & Milestone Waktu",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "pm-3",
+          "title": "Temuan Abnormalitas",
+          "subtitle": "Log & Tindak Lanjut Temuan Lapangan",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "pm-4",
+          "title": "Standar 5R",
+          "subtitle": "Ringkas, Rapi, Resik, Rawat, Rajin",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "pm-5",
+          "title": "CILT Fokus Area",
+          "subtitle": "Cleaning, Inspection, Lubrication, Tightening",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        }
+      ]
+    },
+    "tpm-officer": {
+      "title": "TPM OFFICER",
+      "subtitle": "Organisasi & Tanggung Jawab Personil",
+      "slots": [
+        {
+          "id": "to-1",
+          "title": "Struktur Organisasi SGA QC 4/5",
+          "subtitle": "Bagan Tim & Penugasan SGA",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "to-2",
+          "title": "Voice of CEO",
+          "subtitle": "Arahan & Komitmen Manajemen",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "to-3",
+          "title": "Masukan Fasilitator",
+          "subtitle": "Catatan & Bimbingan Fasilitator",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "to-4",
+          "title": "Masukan Leader Gugus",
+          "subtitle": "Evaluasi & Saran Leader Gugus",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "to-5",
+          "title": "Review Leader",
+          "subtitle": "Monitoring & Penilaian Leader",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "to-6",
+          "title": "Dokumentasi Kegiatan",
+          "subtitle": "Foto & Dokumentasi Aktivitas TPM",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        }
+      ]
+    },
+    "focus-improvement": {
+      "title": "FOCUS IMPROVEMENT",
+      "subtitle": "SGA, Kaizen & Peningkatan Berkelanjutan",
+      "slots": [
+        {
+          "id": "fi-1",
+          "title": "Slogan SGA QC / Komitmen",
+          "subtitle": "TPM Tuntas Bersama Jaga Kualitas",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "fi-2",
+          "title": "Lembar Kaizen: Before - After",
+          "subtitle": "Dokumentasi Titik Perbaikan",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        },
+        {
+          "id": "fi-3",
+          "title": "Dokumen FI",
+          "subtitle": "Dokumen & Lembar Focus Improvement",
+          "pdfUrl": null,
+          "pdfOriginalName": null,
+          "pdfSize": null,
+          "uploadedAt": null
+        }
+      ]
+    }
+  },
+  "2026-11": {
     "plan-maintenance": {
       "title": "PLAN MAINTENANCE",
       "subtitle": "Perencanaan & Pemeliharaan Berkala",
